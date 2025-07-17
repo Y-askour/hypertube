@@ -1,0 +1,3 @@
+module hypertube
+
+go 1.23.2
