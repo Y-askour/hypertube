@@ -1,3 +1,5 @@
 FROM quay.io/keycloak/keycloak:24.0.1
 
-CMD ["start-dev"]
+COPY hypertube-realm.json /opt/keycloak/data/import/
+
+CMD ["start-dev", "--import-realm"]

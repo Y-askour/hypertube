@@ -1,6 +1,19 @@
 version: '3.8'
 
 services:
+  postgresql:
+    build: ./postgresql/
+    environment:
+      POSTGRES_DB: hypertube
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: kcadmin
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - keycloak_net
+    ports:
+      - "5432:5432"
+
   keycloak:
     build: ./keycloak/
     ports:
@@ -8,3 +21,19 @@ services:
     environment:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin
+      KC_DB: postgres
+      KC_DB_URL_HOST: postgresql
+      KC_DB_PORT: 5432
+      KC_DB_USERNAME: admin
+      KC_DB_PASSWORD: kcadmin
+      KC_DB_DATABASE: keycloak
+    depends_on:
+      - postgresql
+    networks:
+      - keycloak_net
+
+volumes:
+  postgres_data:
+
+networks:
+  keycloak_net:
