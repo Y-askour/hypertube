@@ -7,8 +7,8 @@ services:
       POSTGRES_DB: hypertube
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: kcadmin
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
+    # volumes:
+    #   - postgres_data:/var/lib/postgresql/data
     networks:
       - keycloak_net
     ports:
@@ -22,11 +22,28 @@ services:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin
       KC_DB: postgres
-      KC_DB_URL_HOST: postgresql
+      KC_DB_URL: jdbc:postgresql://postgresql:5432/keycloak
       KC_DB_PORT: 5432
       KC_DB_USERNAME: admin
       KC_DB_PASSWORD: kcadmin
       KC_DB_DATABASE: keycloak
+      KC_DB_SCHEMA: keycloak_schema
+      KC_HOSTNAME: localhost
+      KC_PRODUCTION: true
+      KC_HOSTNAME_STRICT: false
+      KC_HOSTNAME_STRICT_HTTPS: false
+      KC_PROXY: edge
+      KC_PROXY_ADDRESS_FORWARDING: true
+      KC_ENABLE_HTTPS: false
+      KC_HTTP_ENABLED: true
+      KC_HOSTNAME_PORT: 8080
+      KC_PORT: 8080
+      KC_LOG_LEVEL: info
+      KC_METRICS_ENABLED: true
+      KC_HEALTH_ENABLED: true
+      KC_HTTP_RELATIVE_PATH: /auth
+      INTRA_CLIENT_ID: u-s4t2ud-0176d6a2526ce96309088ac17227c4bab0cf257524bf8e228f0428a061608298
+      INTRA_CLIENT_SECRET: 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
     depends_on:
       - postgresql
     networks:
