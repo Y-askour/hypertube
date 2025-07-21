@@ -42,6 +42,7 @@ services:
       KC_METRICS_ENABLED: true
       KC_HEALTH_ENABLED: true
       KC_HTTP_RELATIVE_PATH: /auth
+      KC_THEME_LOGIN : hypertube-theme
       INTRA_CLIENT_ID: u-s4t2ud-0176d6a2526ce96309088ac17227c4bab0cf257524bf8e228f0428a061608298
       INTRA_CLIENT_SECRET: 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
     depends_on:
