@@ -1,0 +1,16 @@
+.animate-scroll-x {
+    background-image: url('/public/bgHyperTub.jpg');
+    background-repeat: repeat-x;
+    background-size: auto 100%; 
+    animation: animate 100s linear infinite;
+  }
+  
+
+  @keyframes animate {
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: 100% 0%;
+    }
+  }
