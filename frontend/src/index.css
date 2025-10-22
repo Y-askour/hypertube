@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+.text-outline {
+  -webkit-text-stroke: 2px black; /* للمتصفحات كروم وفايرفوكس */
+  text-stroke: 2px black; /* دعم محدود */
+}

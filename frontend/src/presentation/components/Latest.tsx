@@ -56,7 +56,7 @@ const Latest = () => {
     {
       id: 1,
       title: 'The Enigma Code',
-      posterUrl: '/films/prisonBreak.jpeg', // Replace with a relevant image URL
+      posterUrl: '/films/TheEnigmaCode.jpeg', // Replace with a relevant image URL
       description: 'A brilliant detective must decipher a series of cryptic clues to prevent a global catastrophe. Full of twists and turns, this thriller will keep you on the edge of your seat.',
       tags: ['Thriller', 'Mystery', 'Action'],
       year: 2023,
@@ -66,7 +66,7 @@ const Latest = () => {
     {
       id: 2,
       title: 'Whispers of the Galaxy',
-      posterUrl: '/films/prisonBreak.jpeg', // Replace with a relevant image URL
+      posterUrl: '/films/WhispersoftheGalaxy.jpeg', // Replace with a relevant image URL
       description: 'In a distant future, a lone explorer uncovers an ancient secret that could change the fate of the universe. An epic space opera with breathtaking visuals and emotional depth.',
       tags: ['Sci-Fi', 'Adventure', 'Fantasy'],
       year: 2022,
@@ -79,7 +79,7 @@ const Latest = () => {
   return (
     <div className="w-full bg-black py-16 px-4 md:px-8 lg:px-16 border-b-8 border-[#222]">
       <h2 className="text-white text-3xl md:text-4xl font-bold mb-10 text-center">
-        Latest & Trending (Fakeflix Originals)
+        Latest & Trending
       </h2>
       <div className="flex justify-center items-center flex-wrap gap-8">
         {films.map((film) => (

@@ -96,9 +96,9 @@ const FAQSection = () => {
       {/* Call to action section for the clone */}
       <div className="text-center mt-10 text-white text-xl">
           Ready to try the real thing? <br/>
-          <button className="bg-red-600 hover:bg-red-700 text-white font-medium py-3 px-6 rounded mt-4 transition-colors duration-300">
+          {/* <button className="bg-red-600 hover:bg-red-700 text-white font-medium py-3 px-6 rounded mt-4 transition-colors duration-300">
               Try the Demo Now (Fake Button)
-          </button>
+          </button> */}
       </div>
     </div>
   );
