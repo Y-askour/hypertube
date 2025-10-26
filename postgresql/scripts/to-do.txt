@@ -1,0 +1,21 @@
+1. Torrent fundamentals (how it works and what you get)
+
+2. Streaming protocols & how browsers expect video
+
+3 . End-to-end flow: search → select → stream (what your backend must do)
+
+4. How to stream a torrent file progressively & make it robust (edge cases)
+
+5 . Transcoding / browser compatibility strategies
+
+6 .Persistent storage, eviction and partial downloads (what to keep & when)
+
+7 . Metadata & subtitles (where to get movie data)
+
+8 .Concrete PostgreSQL schema + storage layout
+
+9 .Practical implementation tips, libraries and checklist
+
+
+------------------------------------
+1. store the downloaded movies and it's metadata completed not completed, where to continue download, the torrent url
