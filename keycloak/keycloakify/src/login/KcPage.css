@@ -1,0 +1,596 @@
+/* Container styles */
+.kc-custom-container {
+    background: rgba(30, 30, 30, 0.95);
+    border-radius: 12px;
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Header styles */
+.kc-custom-header {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Social login buttons */
+.kc-custom-social-section {
+    display: flex !important;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+/* Social list styling */
+.kc-custom-social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.kc-custom-social-list li {
+    list-style: none;
+}
+
+.kc-custom-social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    padding: 12px;
+    background: rgba(60, 60, 60, 0.8);
+    border: 1px solid rgba(80, 80, 80, 0.5);
+    border-radius: 6px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.kc-custom-social-button:hover {
+    background: rgba(70, 70, 70, 0.9);
+    border-color: rgba(100, 100, 100, 0.8);
+}
+
+.kc-custom-social-link {
+    display: block;
+    text-decoration: none;
+}
+
+.kc-custom-social-name {
+    display: inline-block;
+}
+
+.kc-custom-social-logo {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    display: inline;
+    vertical-align: middle;
+    margin: 0 0 0 6px;
+}
+
+/* Form group styles */
+.kc-custom-form-group {
+    margin-bottom: 16px;
+}
+
+/* Show label wrapper but position it absolutely over input */
+.kcLabelWrapperClass {
+    display: block !important;
+    margin-bottom: 8px;
+}
+
+/* Label styles - show with required asterisk */
+.kc-custom-label {
+    display: block !important;
+    color: #808080;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Style required asterisk in red */
+.kcLabelWrapperClass::after {
+    content: " *";
+    color: #ff4444;
+    font-weight: bold;
+}
+
+/* Don't show asterisk if not required */
+.kc-custom-form-group:not(:has([required])) .kcLabelWrapperClass::after {
+    content: "";
+}
+
+/* Visually hide label when input has placeholder (accessibility-friendly) */
+.kcLabelWrapperClass:has(
+        ~ .kcInputWrapperClass input[placeholder]:not([placeholder=""])
+    ) {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border-width: 0 !important;
+}
+
+/* Input field styles */
+.kcInputWrapperClass {
+    width: 100%;
+}
+
+.kc-custom-input {
+    width: 100%;
+    padding: 12px;
+    background: rgba(60, 60, 60, 0.8) !important;
+    border: 1px solid rgba(80, 80, 80, 0.5) !important;
+    border-radius: 6px;
+    color: #ffffff !important;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    transition: all 0.2s;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.kc-custom-input::placeholder {
+    color: #808080;
+    opacity: 1;
+}
+
+/* Ensure placeholder is visible */
+.kc-custom-input::-webkit-input-placeholder {
+    color: #808080;
+    opacity: 1;
+}
+
+.kc-custom-input::-moz-placeholder {
+    color: #808080;
+    opacity: 1;
+}
+
+.kc-custom-input:-ms-input-placeholder {
+    color: #808080;
+    opacity: 1;
+}
+
+.kc-custom-input:focus {
+    border-color: rgba(100, 100, 100, 0.8) !important;
+    background: rgba(70, 70, 70, 0.8) !important;
+}
+
+.kc-custom-input:focus::placeholder {
+    opacity: 0.5;
+}
+
+/* Password visibility button */
+.kc-custom-password-visibility {
+    background: transparent !important;
+    border: none !important;
+    color: #b0b0b0 !important;
+    padding: 0 8px;
+}
+
+.kc-custom-password-visibility:hover {
+    color: #ffffff !important;
+}
+
+/* Input group for password field */
+.kc-custom-input-group {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.kc-custom-input-group input {
+    padding-right: 40px !important;
+    width: 100%;
+}
+
+.kc-custom-input-group button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Form options (Remember me / Forgot password) */
+.kc-custom-form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.kc-custom-form-options-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.kc-custom-form-options-left label {
+    color: #b0b0b0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.kc-custom-form-options-left input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+    cursor: pointer;
+}
+
+.kc-custom-form-options-right {
+    display: flex;
+    align-items: center;
+}
+
+.kc-custom-form-options-right a {
+    color: #ff4444;
+    text-decoration: none;
+}
+
+.kc-custom-form-options-right a:hover {
+    text-decoration: underline;
+}
+
+.kc-custom-form-options a {
+    color: #ff4444;
+    text-decoration: none;
+}
+
+.kc-custom-form-options a:hover {
+    text-decoration: underline;
+}
+
+/* Submit button */
+.kc-custom-button-primary {
+    width: 100%;
+    padding: 14px;
+    background: #ff0000 !important;
+    border: none !important;
+    border-radius: 6px;
+    color: #ffffff !important;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.kc-custom-button-primary:hover {
+    background: #cc0000 !important;
+}
+
+/* Registration section */
+.kc-custom-registration {
+    text-align: center;
+    margin-top: 20px;
+    color: #b0b0b0;
+    font-size: 14px;
+}
+
+.kc-custom-registration a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.kc-custom-registration a:hover {
+    text-decoration: underline;
+}
+
+/* Divider with "or" text */
+.kc-custom-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #808080;
+    font-size: 13px;
+}
+
+.kc-custom-divider::before,
+.kc-custom-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgba(128, 128, 128, 0.3);
+}
+
+.kc-custom-divider::before {
+    margin-right: 12px;
+}
+
+.kc-custom-divider::after {
+    margin-left: 12px;
+}
+
+/* Close button */
+.kc-custom-close-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: transparent;
+    border: none;
+    color: #b0b0b0;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+.kc-custom-close-button:hover {
+    color: #ffffff;
+}
+
+/* Social provider buttons */
+.kc-custom-social-button,
+.pf-v5-c-button.pf-m-secondary.pf-m-block,
+#kc-social-providers a {
+    width: 100%;
+    padding: 12px;
+    background: #ffffff !important;
+    border: 1px solid rgba(80, 80, 80, 0.3) !important;
+    border-radius: 6px;
+    color: #333333 !important;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.2s;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.kc-custom-social-button:hover,
+.pf-v5-c-button.pf-m-secondary.pf-m-block:hover,
+#kc-social-providers a:hover {
+    background: #f5f5f5 !important;
+}
+
+/* Social providers container */
+#kc-social-providers {
+    display: block !important;
+    margin-bottom: 20px;
+}
+
+#kc-social-providers ul,
+.pf-v5-c-login__main-body {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+}
+
+#kc-social-providers li,
+.pf-v5-u-pb-sm {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Google SVG icon */
+.google {
+    width: 20px;
+    height: 20px;
+}
+
+.kc-custom-social-button.secondary {
+    background: #2c4a82 !important;
+    color: #ffffff !important;
+    border-color: #2c4a82 !important;
+}
+
+.kc-custom-social-button.secondary:hover {
+    background: #234073 !important;
+}
+
+/* Alert/Error messages */
+.kc-custom-alert {
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.kc-custom-alert-error {
+    background: rgba(255, 0, 0, 0.1);
+    border: 1px solid rgba(255, 0, 0, 0.3);
+    color: #ff4444 !important;
+}
+
+/* Ensure error text and all children are red */
+.kc-custom-alert-error * {
+    color: #ff4444 !important;
+}
+
+/* Error message specific styling */
+.kc-custom-alert-error .pf-c-alert__title,
+.kc-custom-alert-error span,
+.kc-custom-alert-error p {
+    color: #ff4444 !important;
+}
+
+.kc-custom-alert-warning {
+    background: rgba(255, 193, 7, 0.15);
+    border: 1px solid rgba(255, 193, 7, 0.3);
+    color: #ffc107;
+}
+
+.kc-custom-alert-success {
+    background: rgba(76, 175, 80, 0.15);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+    color: #4caf50;
+}
+
+.kc-custom-alert-info {
+    background: rgba(33, 150, 243, 0.15);
+    border: 1px solid rgba(33, 150, 243, 0.3);
+    color: #2196f3;
+}
+
+/* Info section */
+.kc-custom-info {
+    color: #b0b0b0;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.kc-custom-info a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.kc-custom-info a:hover {
+    text-decoration: underline;
+}
+
+/* Registration link */
+.kc-custom-registration {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #b0b0b0;
+}
+
+.kc-custom-registration a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.kc-custom-registration a:hover {
+    text-decoration: underline;
+}
+
+/* Disabled/readonly inputs */
+.kc-custom-input:disabled,
+.kc-custom-input:read-only {
+    background: rgba(40, 40, 40, 0.5) !important;
+    color: #808080 !important;
+    cursor: not-allowed;
+}
+
+/* Hide elements when not present */
+.kc-custom-form-options:empty {
+    display: none;
+}
+
+/* Ensure proper spacing for social providers */
+.kc-custom-social-section:empty {
+    display: none;
+    margin-bottom: 0;
+}
+
+/* Handle when only password field is shown */
+.kc-custom-form-group:only-child {
+    margin-bottom: 16px;
+}
+
+/* Error field styling */
+.kc-custom-input.error,
+.kc-custom-input[aria-invalid="true"] {
+    border-color: rgba(255, 68, 68, 0.6) !important;
+}
+
+/* Form helper text */
+.kc-custom-form-helper-text {
+    font-size: 12px;
+    margin-top: 4px;
+    color: #b0b0b0;
+}
+
+.kc-custom-form-helper-text.error {
+    color: #ff4444 !important;
+}
+
+/* Error message classes from Keycloak */
+.kcInputErrorMessageClass,
+.pf-c-form__helper-text.pf-m-error,
+.kc-feedback-text,
+.pf-m-error {
+    color: #ff4444 !important;
+    font-size: 13px;
+    margin-top: 4px;
+    display: block;
+}
+
+/* Ensure required error messages are red */
+.required.kc-feedback-text,
+span.required {
+    color: #ff4444 !important;
+}
+
+/* Tooltip/help text */
+.kc-custom-tooltip {
+    font-size: 12px;
+    color: #b0b0b0;
+    margin-top: 8px;
+}
+
+/* Multiple social providers layout */
+.kc-custom-social-section .kc-custom-social-button:nth-child(n + 3) {
+    margin-top: 0;
+}
+
+/* Adjustments for forms without certain elements */
+.kc-custom-form-options-left:empty {
+    display: none;
+}
+
+.kc-custom-form-options-right:empty {
+    display: none;
+}
+
+/* When only one option exists, adjust layout */
+.kc-custom-form-options:has(.kc-custom-form-options-left:empty) {
+    justify-content: flex-end;
+}
+
+.kc-custom-form-options:has(.kc-custom-form-options-right:empty) {
+    justify-content: flex-start;
+}
+
+/* Immutable username styling */
+.kc-custom-input[readonly] {
+    background: rgba(50, 50, 50, 0.6) !important;
+    cursor: default;
+}
+
+/* Required field indicator */
+.kc-custom-label .required {
+    color: #ff6b6b;
+    margin-left: 4px;
+}

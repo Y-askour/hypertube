@@ -43,8 +43,10 @@ services:
       KC_HEALTH_ENABLED: true
       KC_HTTP_RELATIVE_PATH: /auth
       KC_THEME_LOGIN : hypertube-theme
-      INTRA_CLIENT_ID: u-s4t2ud-0176d6a2526ce96309088ac17227c4bab0cf257524bf8e228f0428a061608298
-      INTRA_CLIENT_SECRET: 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
+      INTRA_CLIENT_ID: u-s4t2ud-3bdeaf20d556eaee3fc3a50aad024c247bfca90037723b2237099c8b889941b7
+      INTRA_CLIENT_SECRET: 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
+      GOOGLE_CLIENT_ID: google_id 
+      GOOGLE_CLIENT_SECRET: google_secret
     depends_on:
       - postgresql
     networks:
