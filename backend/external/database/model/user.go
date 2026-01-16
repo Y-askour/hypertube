@@ -5,7 +5,7 @@ package model
 // ============================
 type User struct {
 	ID                 uint   `gorm:"column:id;primaryKey"`
-	Language           string `gorm:"column:LANGUAGE;size:10;default:'en'"`
+	Language           string `gorm:"column:language;size:10;default:'en'"`
 	Email              string `gorm:"column:email;size:255;unique;not null"`
 	HashedPassword     string `gorm:"column:hashed_password;size:255"`
 	FirstName          string `gorm:"column:first_name;size:100;not null"`
@@ -15,5 +15,5 @@ type User struct {
 }
 
 func (User) TableName() string {
-	return `"APP"."USER"`
+	return "app.\"USER\""
 }

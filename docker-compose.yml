@@ -5,8 +5,8 @@ services:
     build: ./postgresql/
     environment:
       POSTGRES_DB: hypertube
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: kcadmin
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
     # volumes:
     #   - postgres_data:/var/lib/postgresql/data
     networks:
