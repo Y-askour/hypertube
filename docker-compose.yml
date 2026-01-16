@@ -10,50 +10,11 @@ services:
     # volumes:
     #   - postgres_data:/var/lib/postgresql/data
     networks:
-      - keycloak_net
+      - hypertube_network
     ports:
       - "5432:5432"
-
-  keycloak:
-    build: ./keycloak/
-    ports:
-      - "8080:8080"
-    environment:
-      KEYCLOAK_ADMIN: admin
-      KEYCLOAK_ADMIN_PASSWORD: admin
-      KC_DB: postgres
-      KC_DB_URL: jdbc:postgresql://postgresql:5432/keycloak
-      KC_DB_PORT: 5432
-      KC_DB_USERNAME: admin
-      KC_DB_PASSWORD: kcadmin
-      KC_DB_DATABASE: keycloak
-      KC_DB_SCHEMA: keycloak_schema
-      KC_HOSTNAME: localhost
-      KC_PRODUCTION: true
-      KC_HOSTNAME_STRICT: false
-      KC_HOSTNAME_STRICT_HTTPS: false
-      KC_PROXY: edge
-      KC_PROXY_ADDRESS_FORWARDING: true
-      KC_ENABLE_HTTPS: false
-      KC_HTTP_ENABLED: true
-      KC_HOSTNAME_PORT: 8080
-      KC_PORT: 8080
-      KC_LOG_LEVEL: info
-      KC_METRICS_ENABLED: true
-      KC_HEALTH_ENABLED: true
-      KC_HTTP_RELATIVE_PATH: /auth
-      KC_THEME_LOGIN : hypertube-theme
-      INTRA_CLIENT_ID: u-s4t2ud-3bdeaf20d556eaee3fc3a50aad024c247bfca90037723b2237099c8b889941b7
-      INTRA_CLIENT_SECRET: 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
-      GOOGLE_CLIENT_ID: google_id 
-      GOOGLE_CLIENT_SECRET: google_secret
-    depends_on:
-      - postgresql
-    networks:
-      - keycloak_net
-
 volumes:
   postgres_data:
 
 networks:
-  keycloak_net:
+  hypertube_network:
