@@ -3,9 +3,10 @@ package router
 import (
 	"backend/internal"
 	"backend/internal/handler"
-
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
+	// subtitle package
+	"backend/subtitle"
 )
 
 func Router() *gin.Engine {
@@ -53,6 +54,19 @@ func Router() *gin.Engine {
 		auth.GET("google/callback", handler.CallbackWithGoogle)        // Google OAuth callback
 		auth.POST("email_and_password", handler.AuthWithEmailPassword) // authenticate with email and password
 		auth.POST("register", handler.Register)                        // register new user
+	}
+
+	// subtitle routes
+	subtitleGroup := router.Group("subtitle")
+	{	
+		// search for subtitles by query (movie name, imdb id, etc.)
+		subtitleGroup.GET("/search", subtitle.SearchSubtitlesHandler)
+
+		// get download link for a subtitle by file id and optional parameters (format, filename, force download)
+		subtitleGroup.POST("/download", subtitle.GetDownloadLinkHandler)
+
+		// download subtitle file by file id (this will be a proxy endpoint that fetches the file from OpenSubtitles and serves it to the client)
+		subtitleGroup.GET("/file", subtitle.DownloadSubtitleFileHandler)
 	}
 
 	return router
