@@ -63,10 +63,12 @@ func Router() *gin.Engine {
 		subtitleGroup.GET("/search", subtitle.SearchSubtitlesHandler)
 
 		// get download link for a subtitle by file id and optional parameters (format, filename, force download)
-		subtitleGroup.POST("/download", subtitle.GetDownloadLinkHandler)
+		// subtitleGroup.POST("/download", subtitle.GetDownloadLinkHandler)
+
+		subtitleGroup.POST("/download", subtitle.DownloadSubtitleHandler)
 
 		// download subtitle file by file id (this will be a proxy endpoint that fetches the file from OpenSubtitles and serves it to the client)
-		subtitleGroup.GET("/file", subtitle.DownloadSubtitleFileHandler)
+		// subtitleGroup.GET("/file", subtitle.DownloadSubtitleFileHandler)
 	}
 
 	return router

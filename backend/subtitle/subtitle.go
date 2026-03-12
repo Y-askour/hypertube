@@ -199,7 +199,102 @@ func SearchSubtitlesHandler(c *gin.Context) {
     })
 }
 
-func GetDownloadLinkHandler(c *gin.Context) {
+// func GetDownloadLinkHandler(c *gin.Context) {
+//     var body downloadRequest
+//     if err := c.ShouldBindJSON(&body); err != nil {
+//         c.JSON(400, gin.H{"error": "invalid body: " + err.Error()})
+//         return
+//     }
+//     if body.FileID == 0 {
+//         c.JSON(400, gin.H{"error": "file_id is required"})
+//         return
+//     }
+//     if body.SubFormat == "" {
+//         body.SubFormat = "srt"
+//     }
+
+//     payload, _ := json.Marshal(body)
+//     req, err := http.NewRequest("POST", "https://api.opensubtitles.com/api/v1/download", bytes.NewBuffer(payload))
+//     if err != nil {
+//         c.JSON(500, gin.H{"error": err.Error()})
+//         return
+//     }
+//     openSubtitlesHeaders(req)
+
+//     resp, err := (&http.Client{}).Do(req)
+//     if err != nil {
+//         c.JSON(500, gin.H{"error": err.Error()})
+//         return
+//     }
+//     defer resp.Body.Close()
+
+//     respBody, _ := io.ReadAll(resp.Body)
+
+//     if resp.StatusCode != http.StatusOK {
+//         var errResp interface{}
+//         json.Unmarshal(respBody, &errResp)
+//         c.JSON(resp.StatusCode, errResp)
+//         return
+//     }
+
+//     var dlResp downloadResponse
+//     if err := json.Unmarshal(respBody, &dlResp); err != nil {
+//         c.JSON(500, gin.H{"error": "failed to parse download response"})
+//         return
+//     }
+
+//     c.JSON(200, gin.H{
+//         "link":            dlResp.Link,
+//         "file_name":       dlResp.FileName,
+//         "quota_remaining": dlResp.Requests,
+//         "quota_allowed":   dlResp.Allowed,
+//         "reset_time_utc":  dlResp.ResetTimeUTC,
+//     })
+// }
+
+// func DownloadSubtitleFileHandler(c *gin.Context) {
+//     link := c.Query("link")
+//     if link == "" {
+//         c.JSON(400, gin.H{"error": "link parameter is required"})
+//         return
+//     }
+
+//     parsed, err := url.ParseRequestURI(link)
+//     if err != nil || (parsed.Host != "dl.opensubtitles.com" &&
+//         parsed.Host != "www.opensubtitles.com") {
+//         c.JSON(400, gin.H{"error": "invalid or untrusted download link"})
+//         return
+//     }
+
+//     req, err := http.NewRequest("GET", link, nil)
+//     if err != nil {
+//         c.JSON(500, gin.H{"error": err.Error()})
+//         return
+//     }
+//     req.Header.Set("User-Agent", "MyGoApp v1.0")
+
+//     resp, err := (&http.Client{}).Do(req)
+//     if err != nil {
+//         c.JSON(500, gin.H{"error": err.Error()})
+//         return
+//     }
+//     defer resp.Body.Close()
+
+//     if resp.StatusCode != http.StatusOK {
+//         c.JSON(resp.StatusCode, gin.H{"error": fmt.Sprintf("upstream returned %d", resp.StatusCode)})
+//         return
+//     }
+
+//     fileName := c.DefaultQuery("file_name", "subtitle.srt")
+//     c.Header("Content-Disposition", `attachment; filename="`+fileName+`"`)
+//     c.Header("Content-Type", "text/plain; charset=utf-8")
+
+//     io.Copy(c.Writer, resp.Body)
+// }
+
+
+func DownloadSubtitleHandler(c *gin.Context) {
+
     var body downloadRequest
     if err := c.ShouldBindJSON(&body); err != nil {
         c.JSON(400, gin.H{"error": "invalid body: " + err.Error()})
@@ -228,9 +323,8 @@ func GetDownloadLinkHandler(c *gin.Context) {
     }
     defer resp.Body.Close()
 
-    respBody, _ := io.ReadAll(resp.Body)
-
     if resp.StatusCode != http.StatusOK {
+        respBody, _ := io.ReadAll(resp.Body)
         var errResp interface{}
         json.Unmarshal(respBody, &errResp)
         c.JSON(resp.StatusCode, errResp)
@@ -238,56 +332,33 @@ func GetDownloadLinkHandler(c *gin.Context) {
     }
 
     var dlResp downloadResponse
-    if err := json.Unmarshal(respBody, &dlResp); err != nil {
+    if err := json.NewDecoder(resp.Body).Decode(&dlResp); err != nil {
         c.JSON(500, gin.H{"error": "failed to parse download response"})
         return
     }
 
-    c.JSON(200, gin.H{
-        "link":            dlResp.Link,
-        "file_name":       dlResp.FileName,
-        "quota_remaining": dlResp.Requests,
-        "quota_allowed":   dlResp.Allowed,
-        "reset_time_utc":  dlResp.ResetTimeUTC,
-    })
-}
-
-func DownloadSubtitleFileHandler(c *gin.Context) {
-    link := c.Query("link")
-    if link == "" {
-        c.JSON(400, gin.H{"error": "link parameter is required"})
-        return
-    }
-
-    parsed, err := url.ParseRequestURI(link)
-    if err != nil || (parsed.Host != "dl.opensubtitles.com" &&
-        parsed.Host != "www.opensubtitles.com") {
+    parsed, err := url.ParseRequestURI(dlResp.Link)
+    if err != nil || (parsed.Host != "dl.opensubtitles.com" && parsed.Host != "www.opensubtitles.com") {
         c.JSON(400, gin.H{"error": "invalid or untrusted download link"})
         return
     }
 
-    req, err := http.NewRequest("GET", link, nil)
+    req2, _ := http.NewRequest("GET", dlResp.Link, nil)
+    req2.Header.Set("User-Agent", "MyGoApp v1.0")
+
+    resp2, err := (&http.Client{}).Do(req2)
     if err != nil {
         c.JSON(500, gin.H{"error": err.Error()})
         return
     }
-    req.Header.Set("User-Agent", "MyGoApp v1.0")
+    defer resp2.Body.Close()
 
-    resp, err := (&http.Client{}).Do(req)
-    if err != nil {
-        c.JSON(500, gin.H{"error": err.Error()})
-        return
-    }
-    defer resp.Body.Close()
-
-    if resp.StatusCode != http.StatusOK {
-        c.JSON(resp.StatusCode, gin.H{"error": fmt.Sprintf("upstream returned %d", resp.StatusCode)})
+    if resp2.StatusCode != http.StatusOK {
+        c.JSON(resp2.StatusCode, gin.H{"error": fmt.Sprintf("upstream returned %d", resp2.StatusCode)})
         return
     }
 
-    fileName := c.DefaultQuery("file_name", "subtitle.srt")
-    c.Header("Content-Disposition", `attachment; filename="`+fileName+`"`)
+    c.Header("Content-Disposition", `attachment; filename="`+dlResp.FileName+`"`)
     c.Header("Content-Type", "text/plain; charset=utf-8")
-
-    io.Copy(c.Writer, resp.Body)
+    io.Copy(c.Writer, resp2.Body)
 }
