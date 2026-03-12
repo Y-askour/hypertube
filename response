@@ -1,0 +1,2773 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 1140,
+        "feature_details": {
+          "feature_id": 1281864,
+          "feature_type": "Movie",
+          "imdb_id": 10622220,
+          "movie_name": "2019 - Human Lost",
+          "title": "Human Lost",
+          "tmdb_id": 593240,
+          "year": 2019
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 6949405,
+            "file_name": "Human Lost 2019 eng sub"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 8315754,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 264,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s5.opensubtitles.com/features/4/6/8/1281864.jpg",
+            "label": "All subtitles for human lost",
+            "url": "https://www.opensubtitles.com/en/movies/human-lost-2019"
+          }
+        ],
+        "release": "Human Lost 2019",
+        "slug": "human-lost-2019",
+        "subtitle_id": "5939361",
+        "upload_date": "2020-08-13T23:08:47Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/human-lost-2019",
+        "votes": 0
+      },
+      "id": "5939361",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "http://www.heroscribe.org/sottotitolibrutti/",
+        "download_count": 193,
+        "feature_details": {
+          "feature_id": 634633,
+          "feature_type": "Movie",
+          "imdb_id": 183419,
+          "movie_name": "1990 - The Lost Platoon",
+          "title": "The Lost Platoon",
+          "tmdb_id": 28600,
+          "year": 1990
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 1245574,
+            "file_name": "(1990)TheLostPlatoon.ING"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": true,
+        "language": "en",
+        "legacy_subtitle_id": 7317860,
+        "legacy_uploader_id": 1164814,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 135,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s3.opensubtitles.com/features/3/3/6/634633.jpg",
+            "label": "All subtitles for the lost platoon",
+            "url": "https://www.opensubtitles.com/en/movies/1990-thelostplatoon-ing"
+          }
+        ],
+        "release": "(1990)TheLostPlatoon[ING]",
+        "slug": "1990-thelostplatoon-ing",
+        "subtitle_id": "1154021",
+        "upload_date": "2018-04-07T23:19:13Z",
+        "uploader": {
+          "name": "hywel",
+          "rank": "Platinum Member",
+          "uploader_id": 53719
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/1990-thelostplatoon-ing",
+        "votes": 0
+      },
+      "id": "1154021",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "Imported from subscene.com/subtitles/lost-souls/english/9162",
+        "download_count": 32,
+        "feature_details": {
+          "feature_id": 517128,
+          "feature_type": "Movie",
+          "imdb_id": 160484,
+          "movie_name": "2000 - Lost Souls",
+          "title": "Lost Souls",
+          "tmdb_id": 10383,
+          "year": 2000
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 8886907,
+            "file_name": "lost-souls_english-9162"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 10080448,
+        "legacy_uploader_id": 10030650,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 74,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s4.opensubtitles.com/features/8/2/1/517128.jpg",
+            "label": "All subtitles for lost souls",
+            "url": "https://www.opensubtitles.com/en/movies/lost-souls_english-9162"
+          }
+        ],
+        "release": "lost-souls_english-9162",
+        "slug": "lost-souls_english-9162",
+        "subtitle_id": "7959718",
+        "upload_date": "2024-06-14T03:38:44Z",
+        "uploader": {
+          "name": "Anonymous",
+          "rank": "anonymous",
+          "uploader_id": null
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-souls_english-9162",
+        "votes": 0
+      },
+      "id": "7959718",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 627,
+        "feature_details": {
+          "feature_id": 517128,
+          "feature_type": "Movie",
+          "imdb_id": 160484,
+          "movie_name": "2000 - Lost Souls",
+          "title": "Lost Souls",
+          "tmdb_id": 10383,
+          "year": 2000
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 6823074,
+            "file_name": "Lost Souls 2000 720p WEB-DL DD5.1 H.264-HaT"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 8633957,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 212,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s4.opensubtitles.com/features/8/2/1/517128.jpg",
+            "label": "All subtitles for lost souls",
+            "url": "https://www.opensubtitles.com/en/movies/lost-souls-2000-720p-web-dl-dd5-1-h-264-hat"
+          }
+        ],
+        "release": "Lost Souls 2000 720p WEB-DL DD5.1 H.264-HaT",
+        "slug": "lost-souls-2000-720p-web-dl-dd5-1-h-264-hat",
+        "subtitle_id": "5808348",
+        "upload_date": "2021-04-20T18:35:06Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-souls-2000-720p-web-dl-dd5-1-h-264-hat",
+        "votes": 0
+      },
+      "id": "5808348",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 748,
+        "feature_details": {
+          "feature_id": 517128,
+          "feature_type": "Movie",
+          "imdb_id": 160484,
+          "movie_name": "2000 - Lost Souls",
+          "title": "Lost Souls",
+          "tmdb_id": 10383,
+          "year": 2000
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 471324,
+            "file_name": "Lost Souls"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 4041986,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 65,
+        "ratings": 1,
+        "related_links": [
+          {
+            "img_url": "https://s2.opensubtitles.com/features/8/2/1/517128.jpg",
+            "label": "All subtitles for lost souls",
+            "url": "https://www.opensubtitles.com/en/movies/4041986-lost-souls"
+          }
+        ],
+        "release": "Lost Souls",
+        "slug": "4041986-lost-souls",
+        "subtitle_id": "428820",
+        "upload_date": "2011-01-08T12:16:35Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/4041986-lost-souls",
+        "votes": 1
+      },
+      "id": "428820",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 443,
+        "feature_details": {
+          "feature_id": 517128,
+          "feature_type": "Movie",
+          "imdb_id": 160484,
+          "movie_name": "2000 - Lost Souls",
+          "title": "Lost Souls",
+          "tmdb_id": 10383,
+          "year": 2000
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 470383,
+            "file_name": "Lost Souls. Eng-23.979fps"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 146092,
+        "legacy_uploader_id": 56506,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 43,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s8.opensubtitles.com/features/8/2/1/517128.jpg",
+            "label": "All subtitles for lost souls",
+            "url": "https://www.opensubtitles.com/en/movies/146092-lost-souls"
+          }
+        ],
+        "release": "Lost Souls",
+        "slug": "146092-lost-souls",
+        "subtitle_id": "427945",
+        "upload_date": "2002-07-09T00:00:00Z",
+        "uploader": {
+          "name": "honk (a)",
+          "rank": "bronze member",
+          "uploader_id": 22693
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/146092-lost-souls",
+        "votes": 0
+      },
+      "id": "427945",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": null,
+        "download_count": 3036,
+        "feature_details": {
+          "feature_id": 517128,
+          "feature_type": "Movie",
+          "imdb_id": 160484,
+          "movie_name": "2000 - Lost Souls",
+          "title": "Lost Souls",
+          "tmdb_id": 10383,
+          "year": 2000
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 470092,
+            "file_name": "lost_souls-en"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 106419,
+        "legacy_uploader_id": 37905,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 164,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s4.opensubtitles.com/features/8/2/1/517128.jpg",
+            "label": "All subtitles for lost souls",
+            "url": "https://www.opensubtitles.com/en/movies/106419-lost-souls"
+          }
+        ],
+        "release": "Lost Souls",
+        "slug": "106419-lost-souls",
+        "subtitle_id": "427698",
+        "upload_date": "2001-12-05T00:00:00Z",
+        "uploader": {
+          "name": "Panayot (a)",
+          "rank": "Gold member",
+          "uploader_id": 4143
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/106419-lost-souls",
+        "votes": 0
+      },
+      "id": "427698",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 2217,
+        "feature_details": {
+          "feature_id": 517128,
+          "feature_type": "Movie",
+          "imdb_id": 160484,
+          "movie_name": "2000 - Lost Souls",
+          "title": "Lost Souls",
+          "tmdb_id": 10383,
+          "year": 2000
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 470353,
+            "file_name": "Lost.Souls.2000.DVDRip.Xvid-Nile"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.98,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 140104,
+        "legacy_uploader_id": 59671,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 87,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s8.opensubtitles.com/features/8/2/1/517128.jpg",
+            "label": "All subtitles for lost souls",
+            "url": "https://www.opensubtitles.com/en/movies/lost-souls-2000-dvdrip-xvid-nile"
+          }
+        ],
+        "release": "Lost.Souls.2000.DVDRip.Xvid-Nile",
+        "slug": "lost-souls-2000-dvdrip-xvid-nile",
+        "subtitle_id": "427923",
+        "upload_date": "2001-03-12T00:00:00Z",
+        "uploader": {
+          "name": "catman (a)",
+          "rank": "Bronze Member",
+          "uploader_id": 25858
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-souls-2000-dvdrip-xvid-nile",
+        "votes": 0
+      },
+      "id": "427923",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "Retail AMZN (except E01)\nImported from subscene.com/subtitles/baahubali-the-lost-legends-third-season/english/2949254",
+        "download_count": 5,
+        "feature_details": {
+          "feature_id": 2648567,
+          "feature_type": "Movie",
+          "imdb_id": 8346238,
+          "movie_name": " - \"Baahubali: The Lost Legends\" Village of the Lost",
+          "title": "\"Baahubali: The Lost Legends\" Village of the Lost",
+          "tmdb_id": null,
+          "year": null
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 11274791,
+            "file_name": "Baahubali.The.Lost.Legends.S03E04.Village.of.the.Lost.WEBRip.AMZN.en"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 11118444,
+        "legacy_uploader_id": 10030650,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 102,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s5.opensubtitles.com/features/7/6/5/2648567.jpg",
+            "label": "All subtitles for \"baahubali: the lost legends\" village of the lost",
+            "url": "https://www.opensubtitles.com/en/movies/11118444-baahubali-the-lost-legends-s03e04-village-of-the-lost-webrip-amzn"
+          }
+        ],
+        "release": "Baahubali.The.Lost.Legends.S03E04.Village.of.the.Lost.WEBRip.AMZN",
+        "slug": "11118444-baahubali-the-lost-legends-s03e04-village-of-the-lost-webrip-amzn",
+        "subtitle_id": "10369146",
+        "upload_date": "2024-07-08T10:31:45Z",
+        "uploader": {
+          "name": "Anonymous",
+          "rank": "anonymous",
+          "uploader_id": null
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/11118444-baahubali-the-lost-legends-s03e04-village-of-the-lost-webrip-amzn",
+        "votes": 0
+      },
+      "id": "10369146",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "HI Removed | Official subtitles from the 2022 US redistribution (Just synced, no corrections) | Works with all BluRay/BDRip/BRRip versions | Not to be used by RARBG, TurkceAltyazi & Titlovi thieves =) -- Please don't reupload on OpenSubtitles and give credit where it's due. Thanks!",
+        "download_count": 4257,
+        "feature_details": {
+          "feature_id": 545140,
+          "feature_type": "Movie",
+          "imdb_id": 451102,
+          "movie_name": "2006 - The Lost",
+          "title": "The Lost",
+          "tmdb_id": 15711,
+          "year": 2006
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 7532165,
+            "file_name": "aaf-the.lost.2006.720p"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": true,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 9077955,
+        "legacy_uploader_id": 5634869,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 256,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s9.opensubtitles.com/features/0/4/1/545140.jpg",
+            "label": "All subtitles for the lost",
+            "url": "https://www.opensubtitles.com/en/movies/9077955-the-lost-2006-720p-bluray-x264-aaf"
+          }
+        ],
+        "release": "The.Lost.2006.720p.BluRay.x264-aAF",
+        "slug": "9077955-the-lost-2006-720p-bluray-x264-aaf",
+        "subtitle_id": "6562657",
+        "upload_date": "2022-05-03T09:26:12Z",
+        "uploader": {
+          "name": "explosiveskull",
+          "rank": "Trusted member",
+          "uploader_id": 117966
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/9077955-the-lost-2006-720p-bluray-x264-aaf",
+        "votes": 0
+      },
+      "id": "6562657",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "HI | Official subtitles from the 2022 US redistribution (Just synced, no corrections) | Works with all BluRay/BDRip/BRRip versions | Not to be used by RARBG, TurkceAltyazi & Titlovi thieves =) -- Please don't reupload on OpenSubtitles and give credit where it's due. Thanks!",
+        "download_count": 525,
+        "feature_details": {
+          "feature_id": 545140,
+          "feature_type": "Movie",
+          "imdb_id": 451102,
+          "movie_name": "2006 - The Lost",
+          "title": "The Lost",
+          "tmdb_id": 15711,
+          "year": 2006
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 7532164,
+            "file_name": "aaf-the.lost.2006.720p-HI"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": true,
+        "hd": true,
+        "hearing_impaired": true,
+        "language": "en",
+        "legacy_subtitle_id": 9077954,
+        "legacy_uploader_id": 5634869,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 43,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s1.opensubtitles.com/features/0/4/1/545140.jpg",
+            "label": "All subtitles for the lost",
+            "url": "https://www.opensubtitles.com/en/movies/9077954-the-lost-2006-720p-bluray-x264-aaf"
+          }
+        ],
+        "release": "The.Lost.2006.720p.BluRay.x264-aAF",
+        "slug": "9077954-the-lost-2006-720p-bluray-x264-aaf",
+        "subtitle_id": "6562658",
+        "upload_date": "2022-05-03T09:26:07Z",
+        "uploader": {
+          "name": "explosiveskull",
+          "rank": "translator",
+          "uploader_id": 117966
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/9077954-the-lost-2006-720p-bluray-x264-aaf",
+        "votes": 0
+      },
+      "id": "6562658",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "Imported from subscene.com/subtitles/lost-souls/english/3288730",
+        "download_count": 133,
+        "feature_details": {
+          "feature_id": 517128,
+          "feature_type": "Movie",
+          "imdb_id": 160484,
+          "movie_name": "2000 - Lost Souls",
+          "title": "Lost Souls",
+          "tmdb_id": 10383,
+          "year": 2000
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 8886910,
+            "file_name": "Lost.Souls.2000.1080p.BluRay.x264.AAC5.1-ESub"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 10302691,
+        "legacy_uploader_id": 10030650,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 139,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s2.opensubtitles.com/features/8/2/1/517128.jpg",
+            "label": "All subtitles for lost souls",
+            "url": "https://www.opensubtitles.com/en/movies/lost-souls-2000-1080p-bluray-x264-aac5-1-esub"
+          }
+        ],
+        "release": "Lost.Souls.2000.1080p.BluRay.x264.AAC5.1-ESub",
+        "slug": "lost-souls-2000-1080p-bluray-x264-aac5-1-esub",
+        "subtitle_id": "7959720",
+        "upload_date": "2024-06-21T05:40:58Z",
+        "uploader": {
+          "name": "Anonymous",
+          "rank": "anonymous",
+          "uploader_id": null
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-souls-2000-1080p-bluray-x264-aac5-1-esub",
+        "votes": 0
+      },
+      "id": "7959720",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 385,
+        "feature_details": {
+          "feature_id": 517128,
+          "feature_type": "Movie",
+          "imdb_id": 160484,
+          "movie_name": "2000 - Lost Souls",
+          "title": "Lost Souls",
+          "tmdb_id": 10383,
+          "year": 2000
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 6823078,
+            "file_name": "Lost Souls 2000 PAL"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 25,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 8633964,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 47,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s2.opensubtitles.com/features/8/2/1/517128.jpg",
+            "label": "All subtitles for lost souls",
+            "url": "https://www.opensubtitles.com/en/movies/lost-souls-2000-pal"
+          }
+        ],
+        "release": "Lost Souls 2000 PAL",
+        "slug": "lost-souls-2000-pal",
+        "subtitle_id": "5808351",
+        "upload_date": "2021-04-20T18:35:56Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-souls-2000-pal",
+        "votes": 0
+      },
+      "id": "5808351",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": null,
+        "download_count": 394,
+        "feature_details": {
+          "feature_id": 517128,
+          "feature_type": "Movie",
+          "imdb_id": 160484,
+          "movie_name": "2000 - Lost Souls",
+          "title": "Lost Souls",
+          "tmdb_id": 10383,
+          "year": 2000
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 470560,
+            "file_name": "[53201] Lost Souls (2000)"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 198712,
+        "legacy_uploader_id": 63243,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 45,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s5.opensubtitles.com/features/8/2/1/517128.jpg",
+            "label": "All subtitles for lost souls",
+            "url": "https://www.opensubtitles.com/en/movies/198712-lost-souls-2000"
+          }
+        ],
+        "release": "Lost Souls (2000)",
+        "slug": "198712-lost-souls-2000",
+        "subtitle_id": "428107",
+        "upload_date": "2004-04-04T22:00:00Z",
+        "uploader": {
+          "name": "BetaMAN (a)",
+          "rank": "bronze member",
+          "uploader_id": 29412
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/198712-lost-souls-2000",
+        "votes": 0
+      },
+      "id": "428107",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": null,
+        "download_count": 740,
+        "feature_details": {
+          "feature_id": 517128,
+          "feature_type": "Movie",
+          "imdb_id": 160484,
+          "movie_name": "2000 - Lost Souls",
+          "title": "Lost Souls",
+          "tmdb_id": 10383,
+          "year": 2000
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 469975,
+            "file_name": "Lost.Souls.2000.DVDRip.XviD-WRD"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 49984,
+        "legacy_uploader_id": 44110,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 44,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s4.opensubtitles.com/features/8/2/1/517128.jpg",
+            "label": "All subtitles for lost souls",
+            "url": "https://www.opensubtitles.com/en/movies/49984-lost-souls-2000"
+          }
+        ],
+        "release": "Lost Souls (2000)",
+        "slug": "49984-lost-souls-2000",
+        "subtitle_id": "427595",
+        "upload_date": "2003-07-04T00:00:00Z",
+        "uploader": {
+          "name": "flat-erik (a)",
+          "rank": "Bronze Member",
+          "uploader_id": 10312
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/49984-lost-souls-2000",
+        "votes": 0
+      },
+      "id": "427595",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "Gladiators of the Lost Colosseum\r\nEpisode aired Nov 24, 2024\r\n-\t\r\nRun Time: 44:02\r\n SDH\r\n-",
+        "download_count": 2,
+        "feature_details": {
+          "feature_id": 2711809,
+          "feature_type": "Movie",
+          "imdb_id": 34804024,
+          "movie_name": " - \"Lost Treasures of Rome\" Gladiators of the Lost Colosseum",
+          "title": "\"Lost Treasures of Rome\" Gladiators of the Lost Colosseum",
+          "tmdb_id": null,
+          "year": null
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 11468165,
+            "file_name": "Lost.Treasures.Of.Rome.S02E01.GladiatorsOfTheLostColosseum.480p.Eng-Hi"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 25,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": true,
+        "language": "en",
+        "legacy_subtitle_id": 13226972,
+        "legacy_uploader_id": 10128129,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 9,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s6.opensubtitles.com/features/9/0/8/2711809.jpg",
+            "label": "All subtitles for \"lost treasures of rome\" gladiators of the lost colosseum",
+            "url": "https://www.opensubtitles.com/en/movies/13226972-lost-treasures-of-rome-s02e01-gladiator-of-the-lost-colosseum-480p-eng-hi"
+          }
+        ],
+        "release": "Lost.Treasures.Of.Rome.S02E01.Gladiator.of.the.Lost.Colosseum.480p.Eng-Hi",
+        "slug": "13226972-lost-treasures-of-rome-s02e01-gladiator-of-the-lost-colosseum-480p-eng-hi",
+        "subtitle_id": "10564344",
+        "upload_date": "2025-08-16T02:35:24Z",
+        "uploader": {
+          "name": "Anonymous",
+          "rank": "anonymous",
+          "uploader_id": null
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/13226972-lost-treasures-of-rome-s02e01-gladiator-of-the-lost-colosseum-480p-eng-hi",
+        "votes": 0
+      },
+      "id": "10564344",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 28,
+        "feature_details": {
+          "feature_id": 1435613,
+          "feature_type": "Movie",
+          "imdb_id": 8410272,
+          "movie_name": "2018 - His Lost Name",
+          "title": "His Lost Name",
+          "tmdb_id": 546462,
+          "year": 2018
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 7956837,
+            "file_name": "His.Lost.Name.2018.1080p.NF.WEB-DL.DDP5.1.x264-MoreArt"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 9411828,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 55,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s6.opensubtitles.com/features/3/1/6/1435613.jpg",
+            "label": "All subtitles for his lost name",
+            "url": "https://www.opensubtitles.com/en/movies/his-lost-name-2018-1080p-nf-web-dl-ddp5-1-x264-moreart"
+          }
+        ],
+        "release": "His.Lost.Name.2018.1080p.NF.WEB-DL.DDP5.1.x264-MoreArt",
+        "slug": "his-lost-name-2018-1080p-nf-web-dl-ddp5-1-x264-moreart",
+        "subtitle_id": "7009396",
+        "upload_date": "2023-01-29T12:57:08Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/his-lost-name-2018-1080p-nf-web-dl-ddp5-1-x264-moreart",
+        "votes": 0
+      },
+      "id": "7009396",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 212,
+        "feature_details": {
+          "feature_id": 639157,
+          "feature_type": "Movie",
+          "imdb_id": 7203810,
+          "movie_name": "2017 - Lost in Vagueness",
+          "title": "Lost in Vagueness",
+          "tmdb_id": 513606,
+          "year": 2017
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 3038001,
+            "file_name": "Lost.in.Vagueness.2017.HULU.WEBRip.x264-ION10 HI"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 25,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": true,
+        "language": "en",
+        "legacy_subtitle_id": 7363378,
+        "legacy_uploader_id": 6158692,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 24,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s6.opensubtitles.com/features/7/5/1/639157.jpg",
+            "label": "All subtitles for lost in vagueness",
+            "url": "https://www.opensubtitles.com/en/movies/7363378-lost-in-vagueness-2017-hulu-webrip-x264-ion10"
+          }
+        ],
+        "release": "Lost.in.Vagueness.2017.HULU.WEBRip.x264-ION10",
+        "slug": "7363378-lost-in-vagueness-2017-hulu-webrip-x264-ion10",
+        "subtitle_id": "2967737",
+        "upload_date": "2018-05-16T10:00:49Z",
+        "uploader": {
+          "name": "cokili",
+          "rank": "bronze member",
+          "uploader_id": 82566
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/7363378-lost-in-vagueness-2017-hulu-webrip-x264-ion10",
+        "votes": 0
+      },
+      "id": "2967737",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 236,
+        "feature_details": {
+          "feature_id": 639157,
+          "feature_type": "Movie",
+          "imdb_id": 7203810,
+          "movie_name": "2017 - Lost in Vagueness",
+          "title": "Lost in Vagueness",
+          "tmdb_id": 513606,
+          "year": 2017
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 3037985,
+            "file_name": "Lost.in.Vagueness.2017.HULU.WEBRip.x264-ION10"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 25,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 7363377,
+        "legacy_uploader_id": 6158692,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 29,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s6.opensubtitles.com/features/7/5/1/639157.jpg",
+            "label": "All subtitles for lost in vagueness",
+            "url": "https://www.opensubtitles.com/en/movies/lost-in-vagueness-2017-hulu-webrip-x264-ion10"
+          }
+        ],
+        "release": "Lost.in.Vagueness.2017.HULU.WEBRip.x264-ION10",
+        "slug": "lost-in-vagueness-2017-hulu-webrip-x264-ion10",
+        "subtitle_id": "2967722",
+        "upload_date": "2018-05-16T09:59:46Z",
+        "uploader": {
+          "name": "cokili",
+          "rank": "bronze member",
+          "uploader_id": 82566
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-in-vagueness-2017-hulu-webrip-x264-ion10",
+        "votes": 0
+      },
+      "id": "2967722",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 369,
+        "feature_details": {
+          "feature_id": 649784,
+          "feature_type": "Movie",
+          "imdb_id": 2866660,
+          "movie_name": "2013 - Lost for Life",
+          "title": "Lost for Life",
+          "tmdb_id": 283302,
+          "year": 2013
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 4553980,
+            "file_name": "Lost.for.Life.2013.720p.WEB-DL.x264-ETRG-HI"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": true,
+        "hd": true,
+        "hearing_impaired": true,
+        "language": "en",
+        "legacy_subtitle_id": 5762869,
+        "legacy_uploader_id": 1568273,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 10,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s1.opensubtitles.com/features/4/8/7/649784.jpg",
+            "label": "All subtitles for lost for life",
+            "url": "https://www.opensubtitles.com/en/movies/lost-for-life-2013-720p-web-dl-x264-etrg"
+          }
+        ],
+        "release": "Lost.for.Life.2013.720p.WEB-DL.x264-ETRG",
+        "slug": "lost-for-life-2013-720p-web-dl-x264-etrg",
+        "subtitle_id": "4445088",
+        "upload_date": "2014-07-22T19:48:45Z",
+        "uploader": {
+          "name": "Luis-subs",
+          "rank": "Trusted member",
+          "uploader_id": 63405
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-for-life-2013-720p-web-dl-x264-etrg",
+        "votes": 0
+      },
+      "id": "4445088",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": null,
+        "download_count": 716,
+        "feature_details": {
+          "feature_id": 521306,
+          "feature_type": "Movie",
+          "imdb_id": 283453,
+          "movie_name": "2003 - Lost Junction",
+          "title": "Lost Junction",
+          "tmdb_id": 44287,
+          "year": 2003
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 675501,
+            "file_name": "Lost.Junction.2003.STV.DVDRip.XviD-PROMiSE-UK"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 208117,
+        "legacy_uploader_id": 47419,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 64,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s7.opensubtitles.com/features/6/0/3/521306.jpg",
+            "label": "All subtitles for lost junction",
+            "url": "https://www.opensubtitles.com/en/movies/208117-lost-junction-2003"
+          }
+        ],
+        "release": "Lost Junction (2003)",
+        "slug": "208117-lost-junction-2003",
+        "subtitle_id": "611454",
+        "upload_date": "2005-03-01T00:00:00Z",
+        "uploader": {
+          "name": "miskon (a)",
+          "rank": "Platinum Member",
+          "uploader_id": 13614
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/208117-lost-junction-2003",
+        "votes": 0
+      },
+      "id": "611454",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": null,
+        "download_count": 161,
+        "feature_details": {
+          "feature_id": 521306,
+          "feature_type": "Movie",
+          "imdb_id": 283453,
+          "movie_name": "2003 - Lost Junction",
+          "title": "Lost Junction",
+          "tmdb_id": 44287,
+          "year": 2003
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 675442,
+            "file_name": "pme-lj(fixed)"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 82775,
+        "legacy_uploader_id": 48815,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 8,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s1.opensubtitles.com/features/6/0/3/521306.jpg",
+            "label": "All subtitles for lost junction",
+            "url": "https://www.opensubtitles.com/en/movies/82775-lost-junction-2003"
+          }
+        ],
+        "release": "Lost Junction 2003",
+        "slug": "82775-lost-junction-2003",
+        "subtitle_id": "611399",
+        "upload_date": "2004-10-31T00:00:00Z",
+        "uploader": {
+          "name": "U2foreverU2 (a)",
+          "rank": "Bronze Member",
+          "uploader_id": 15016
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/82775-lost-junction-2003",
+        "votes": 0
+      },
+      "id": "611399",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "Gladiators of the Lost Colosseum\r\nEpisode aired Nov 24, 2024\r\n-\t\r\nRun Time: 44:02\r\nHi Removed\r\n-",
+        "download_count": 27,
+        "feature_details": {
+          "feature_id": 2711809,
+          "feature_type": "Movie",
+          "imdb_id": 34804024,
+          "movie_name": " - \"Lost Treasures of Rome\" Gladiators of the Lost Colosseum",
+          "title": "\"Lost Treasures of Rome\" Gladiators of the Lost Colosseum",
+          "tmdb_id": null,
+          "year": null
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 11468164,
+            "file_name": "Lost.Treasures.Of.Rome.S02E01.Gladiators.of.the.Lost.Colosseum.480p.Eng"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 25,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 13226974,
+        "legacy_uploader_id": 10128129,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 20,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s8.opensubtitles.com/features/9/0/8/2711809.jpg",
+            "label": "All subtitles for \"lost treasures of rome\" gladiators of the lost colosseum",
+            "url": "https://www.opensubtitles.com/en/movies/lost-treasures-of-rome-s02e01-gladiator-of-the-lost-colosseum-480p-eng-hi"
+          }
+        ],
+        "release": "Lost.Treasures.Of.Rome.S02E01.Gladiator.of.the.Lost.Colosseum.480p.Eng-Hi",
+        "slug": "lost-treasures-of-rome-s02e01-gladiator-of-the-lost-colosseum-480p-eng-hi",
+        "subtitle_id": "10564343",
+        "upload_date": "2025-08-16T02:39:42Z",
+        "uploader": {
+          "name": "Anonymous",
+          "rank": "anonymous",
+          "uploader_id": null
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-treasures-of-rome-s02e01-gladiator-of-the-lost-colosseum-480p-eng-hi",
+        "votes": 0
+      },
+      "id": "10564343",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 2509,
+        "feature_details": {
+          "feature_id": 649784,
+          "feature_type": "Movie",
+          "imdb_id": 2866660,
+          "movie_name": "2013 - Lost for Life",
+          "title": "Lost for Life",
+          "tmdb_id": 283302,
+          "year": 2013
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 4553987,
+            "file_name": "Lost.for.Life.2013.720p.WEB-DL.x264-ETRG"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": true,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 5762871,
+        "legacy_uploader_id": 1568273,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 70,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s7.opensubtitles.com/features/4/8/7/649784.jpg",
+            "label": "All subtitles for lost for life",
+            "url": "https://www.opensubtitles.com/en/movies/5762871-lost-for-life-2013-720p-web-dl-x264-etrg"
+          }
+        ],
+        "release": "Lost.for.Life.2013.720p.WEB-DL.x264-ETRG",
+        "slug": "5762871-lost-for-life-2013-720p-web-dl-x264-etrg",
+        "subtitle_id": "4445094",
+        "upload_date": "2014-07-22T19:49:13Z",
+        "uploader": {
+          "name": "Luis-subs",
+          "rank": "translator",
+          "uploader_id": 63405
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/5762871-lost-for-life-2013-720p-web-dl-x264-etrg",
+        "votes": 0
+      },
+      "id": "4445094",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": null,
+        "download_count": 199,
+        "feature_details": {
+          "feature_id": 521306,
+          "feature_type": "Movie",
+          "imdb_id": 283453,
+          "movie_name": "2003 - Lost Junction",
+          "title": "Lost Junction",
+          "tmdb_id": 44287,
+          "year": 2003
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 675436,
+            "file_name": "pme-lj"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 82748,
+        "legacy_uploader_id": 48815,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 13,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s1.opensubtitles.com/features/6/0/3/521306.jpg",
+            "label": "All subtitles for lost junction",
+            "url": "https://www.opensubtitles.com/en/movies/lost-junction-2003"
+          }
+        ],
+        "release": "Lost Junction 2003",
+        "slug": "lost-junction-2003",
+        "subtitle_id": "611393",
+        "upload_date": "2004-10-31T00:00:00Z",
+        "uploader": {
+          "name": "U2foreverU2 (a)",
+          "rank": "Bronze Member",
+          "uploader_id": 15016
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-junction-2003",
+        "votes": 0
+      },
+      "id": "611393",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 140,
+        "feature_details": {
+          "feature_id": 521306,
+          "feature_type": "Movie",
+          "imdb_id": 283453,
+          "movie_name": "2003 - Lost Junction",
+          "title": "Lost Junction",
+          "tmdb_id": 44287,
+          "year": 2003
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 675484,
+            "file_name": "Lost.Junction.2003.STV.DVDRip.XviD-PROMiSE-UK"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 131234,
+        "legacy_uploader_id": 56238,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 14,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s4.opensubtitles.com/features/6/0/3/521306.jpg",
+            "label": "All subtitles for lost junction",
+            "url": "https://www.opensubtitles.com/en/movies/lost-junction"
+          }
+        ],
+        "release": "Lost Junction",
+        "slug": "lost-junction",
+        "subtitle_id": "611440",
+        "upload_date": "2004-11-02T00:00:00Z",
+        "uploader": {
+          "name": "sakej (a)",
+          "rank": "Bronze Member",
+          "uploader_id": 22417
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-junction",
+        "votes": 0
+      },
+      "id": "611440",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "Subrip: Pix",
+        "download_count": 1936,
+        "feature_details": {
+          "feature_id": 599409,
+          "feature_type": "Movie",
+          "imdb_id": 3959690,
+          "movie_name": "2015 - Raiders Of The Lost Shark",
+          "title": "Raiders Of The Lost Shark",
+          "tmdb_id": 340855,
+          "year": 2015
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 1136241,
+            "file_name": "Raiders.of.the.Lost.Shark.2014.720p.BluRay.x264.YIFY"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": true,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 7161139,
+        "legacy_uploader_id": 227102,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 188,
+        "ratings": 10,
+        "related_links": [
+          {
+            "img_url": "https://s1.opensubtitles.com/features/9/0/4/599409.jpg",
+            "label": "All subtitles for raiders of the lost shark",
+            "url": "https://www.opensubtitles.com/en/movies/7161139-raiders-of-the-lost-shark-2014-720p-bluray-x264-yify"
+          }
+        ],
+        "release": "Raiders.of.the.Lost.Shark.2014.720p.BluRay.x264.YIFY",
+        "slug": "7161139-raiders-of-the-lost-shark-2014-720p-bluray-x264-yify",
+        "subtitle_id": "1048173",
+        "upload_date": "2017-11-16T02:42:43Z",
+        "uploader": {
+          "name": "pixzinhu_",
+          "rank": "Trusted member",
+          "uploader_id": 37990
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/7161139-raiders-of-the-lost-shark-2014-720p-bluray-x264-yify",
+        "votes": 1
+      },
+      "id": "1048173",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 673,
+        "feature_details": {
+          "feature_id": 551885,
+          "feature_type": "Movie",
+          "imdb_id": 117904,
+          "movie_name": "1996 - Lost and Found",
+          "title": "Lost and Found",
+          "tmdb_id": 118202,
+          "year": 1996
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 7260231,
+            "file_name": "Lost.And.Found.1996.DVDRip.XviD-AC3-BAKAS"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 4739450,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 258,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s5.opensubtitles.com/features/5/8/8/551885.jpg",
+            "label": "All subtitles for lost and found",
+            "url": "https://www.opensubtitles.com/en/movies/lost-and-found"
+          }
+        ],
+        "release": "Lost and Found",
+        "slug": "lost-and-found",
+        "subtitle_id": "1212",
+        "upload_date": "2012-12-12T12:44:17Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-and-found",
+        "votes": 0
+      },
+      "id": "1212",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 2150,
+        "feature_details": {
+          "feature_id": 551885,
+          "feature_type": "Movie",
+          "imdb_id": 117904,
+          "movie_name": "1996 - Lost And Found",
+          "title": "Lost and Found",
+          "tmdb_id": 118202,
+          "year": 1996
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 7638652,
+            "file_name": "Tian.ya.hai.jiao.AKA.Lost.and.Found.1996.1080p.BluRay.FLAC.x264-HANDJOB"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 24,
+        "from_trusted": false,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 9188046,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 250,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s8.opensubtitles.com/features/5/8/8/551885.jpg",
+            "label": "All subtitles for lost and found",
+            "url": "https://www.opensubtitles.com/en/movies/tian-ya-hai-jiao-aka-lost-and-found-1996-1080p-bluray-flac-x264-handjob"
+          }
+        ],
+        "release": "Tian.ya.hai.jiao.AKA.Lost.and.Found.1996.1080p.BluRay.FLAC.x264-HANDJOB",
+        "slug": "tian-ya-hai-jiao-aka-lost-and-found-1996-1080p-bluray-flac-x264-handjob",
+        "subtitle_id": "6669434",
+        "upload_date": "2022-07-30T01:48:13Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/tian-ya-hai-jiao-aka-lost-and-found-1996-1080p-bluray-flac-x264-handjob",
+        "votes": 0
+      },
+      "id": "6669434",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 557,
+        "feature_details": {
+          "feature_id": 551885,
+          "feature_type": "Movie",
+          "imdb_id": 117904,
+          "movie_name": "1996 - Lost and Found",
+          "title": "Lost and Found",
+          "tmdb_id": 118202,
+          "year": 1996
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 7260237,
+            "file_name": "Lost and Found 1996 1080p WEB-DL DD2.0 x264"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 7224622,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 212,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s6.opensubtitles.com/features/5/8/8/551885.jpg",
+            "label": "All subtitles for lost and found",
+            "url": "https://www.opensubtitles.com/en/movies/lost-and-found-1996-1080p-web-dl-dd2-0-x264"
+          }
+        ],
+        "release": "Lost and Found 1996 1080p WEB-DL DD2.0 x264",
+        "slug": "lost-and-found-1996-1080p-web-dl-dd2-0-x264",
+        "subtitle_id": "1228",
+        "upload_date": "2018-01-14T10:57:43Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-and-found-1996-1080p-web-dl-dd2-0-x264",
+        "votes": 0
+      },
+      "id": "1228",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "Imported from subscene.com/subtitles/lost-found/english/2577057",
+        "download_count": 7,
+        "feature_details": {
+          "feature_id": 1095628,
+          "feature_type": "Movie",
+          "imdb_id": 9034530,
+          "movie_name": "2018 - Lost, Found",
+          "title": "Lost, Found",
+          "tmdb_id": 531542,
+          "year": 2018
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 9389339,
+            "file_name": "[Eng] Lost_ Found"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 11878393,
+        "legacy_uploader_id": 10030650,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 72,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s5.opensubtitles.com/features/8/2/6/1095628.jpg",
+            "label": "All subtitles for lost, found",
+            "url": "https://www.opensubtitles.com/en/movies/lost-found-2018-webrip-x264-viu"
+          }
+        ],
+        "release": "Lost.Found.2018.WEBRip.x264-VIU",
+        "slug": "lost-found-2018-webrip-x264-viu",
+        "subtitle_id": "8465741",
+        "upload_date": "2024-07-17T12:33:36Z",
+        "uploader": {
+          "name": "Anonymous",
+          "rank": "anonymous",
+          "uploader_id": null
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-found-2018-webrip-x264-viu",
+        "votes": 0
+      },
+      "id": "8465741",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "Pure Retail VIU\r\nNot sync to any versions yet",
+        "download_count": 69,
+        "feature_details": {
+          "feature_id": 1095628,
+          "feature_type": "Movie",
+          "imdb_id": 9034530,
+          "movie_name": "2018 - Lost, Found",
+          "title": "Lost, Found",
+          "tmdb_id": 531542,
+          "year": 2018
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 8056895,
+            "file_name": "Lost.Found.2018.CHINESE.WEB-DL.VIU.en"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 9498686,
+        "legacy_uploader_id": 437690,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 43,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s2.opensubtitles.com/features/8/2/6/1095628.jpg",
+            "label": "All subtitles for lost, found",
+            "url": "https://www.opensubtitles.com/en/movies/lost-found-2018-chinese-web-dl-viu"
+          }
+        ],
+        "release": "Lost.Found.2018.CHINESE.WEB-DL.VIU",
+        "slug": "lost-found-2018-chinese-web-dl-viu",
+        "subtitle_id": "7120161",
+        "upload_date": "2023-04-10T08:33:40Z",
+        "uploader": {
+          "name": "tedi",
+          "rank": "Bronze Member",
+          "uploader_id": 428192
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-found-2018-chinese-web-dl-viu",
+        "votes": 0
+      },
+      "id": "7120161",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 85,
+        "feature_details": {
+          "feature_id": 1095628,
+          "feature_type": "Movie",
+          "imdb_id": 9034530,
+          "movie_name": "2018 - Lost, Found",
+          "title": "Lost, Found",
+          "tmdb_id": 531542,
+          "year": 2018
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 5254718,
+            "file_name": "Lost.Found.2018.1080p.WEB-DL.AAC.H.264-HQC"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 8247005,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 51,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s2.opensubtitles.com/features/8/2/6/1095628.jpg",
+            "label": "All subtitles for lost, found",
+            "url": "https://www.opensubtitles.com/en/movies/lost-found-2018-1080p-web-dl-aac-h-264-hqc"
+          }
+        ],
+        "release": "Lost.Found.2018.1080p.WEB-DL.AAC.H.264-HQC",
+        "slug": "lost-found-2018-1080p-web-dl-aac-h-264-hqc",
+        "subtitle_id": "5144161",
+        "upload_date": "2020-06-14T11:40:40Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-found-2018-1080p-web-dl-aac-h-264-hqc",
+        "votes": 0
+      },
+      "id": "5144161",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "Imported from subscene.com/subtitles/lost-in-beijing-ping-guo-2007/english/146250",
+        "download_count": 58,
+        "feature_details": {
+          "feature_id": 539824,
+          "feature_type": "Movie",
+          "imdb_id": 949489,
+          "movie_name": "2007 - Lost in Beijing",
+          "title": "Lost in Beijing",
+          "tmdb_id": 30112,
+          "year": 2007
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 8804637,
+            "file_name": "Lost.In.Beijing.ENG"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 10189818,
+        "legacy_uploader_id": 10030650,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 69,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s2.opensubtitles.com/features/4/2/8/539824.jpg",
+            "label": "All subtitles for lost in beijing",
+            "url": "https://www.opensubtitles.com/en/movies/lost-in-beijing-eng"
+          }
+        ],
+        "release": "Lost.In.Beijing.ENG",
+        "slug": "lost-in-beijing-eng",
+        "subtitle_id": "7878663",
+        "upload_date": "2024-06-18T15:03:20Z",
+        "uploader": {
+          "name": "Anonymous",
+          "rank": "anonymous",
+          "uploader_id": null
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-in-beijing-eng",
+        "votes": 0
+      },
+      "id": "7878663",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 388,
+        "feature_details": {
+          "feature_id": 539824,
+          "feature_type": "Movie",
+          "imdb_id": 949489,
+          "movie_name": "2007 - Lost in Beijing",
+          "title": "Lost in Beijing",
+          "tmdb_id": 30112,
+          "year": 2007
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 7172034,
+            "file_name": "Lost.In.Beijing.2007.DVD.THAI.REMUX.V1.576i.MPEG2.DD51-MOLA.EN"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 25,
+        "from_trusted": false,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 8940542,
+        "legacy_uploader_id": 4135811,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 36,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s6.opensubtitles.com/features/4/2/8/539824.jpg",
+            "label": "All subtitles for lost in beijing",
+            "url": "https://www.opensubtitles.com/en/movies/lost-in-beijing-2007-dvd-thai-remux-v1-576i-mpeg2-dd51-mola-en"
+          }
+        ],
+        "release": "Lost.In.Beijing.2007.DVD.THAI.REMUX.V1.576i.MPEG2.DD51-MOLA",
+        "slug": "lost-in-beijing-2007-dvd-thai-remux-v1-576i-mpeg2-dd51-mola-en",
+        "subtitle_id": "6268213",
+        "upload_date": "2022-01-11T01:58:13Z",
+        "uploader": {
+          "name": "pbodq2",
+          "rank": "Administrator",
+          "uploader_id": 75531
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-in-beijing-2007-dvd-thai-remux-v1-576i-mpeg2-dd51-mola-en",
+        "votes": 0
+      },
+      "id": "6268213",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 246,
+        "feature_details": {
+          "feature_id": 539824,
+          "feature_type": "Movie",
+          "imdb_id": 949489,
+          "movie_name": "2007 - Lost in Beijing",
+          "title": "Lost in Beijing",
+          "tmdb_id": 30112,
+          "year": 2007
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 8118747,
+            "file_name": "Lost in Beijing 2007 BluRay 1080p AVC DTS-HD Master Audio 2.0"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 9236588,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 97,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s8.opensubtitles.com/features/4/2/8/539824.jpg",
+            "label": "All subtitles for lost in beijing",
+            "url": "https://www.opensubtitles.com/en/movies/lost-in-beijing-2007-bluray-1080p-avc-dts-hd-master-audio-2-0"
+          }
+        ],
+        "release": "Lost in Beijing 2007 BluRay 1080p AVC DTS-HD Master Audio 2.0",
+        "slug": "lost-in-beijing-2007-bluray-1080p-avc-dts-hd-master-audio-2-0",
+        "subtitle_id": "7183317",
+        "upload_date": "2022-09-10T11:23:38Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-in-beijing-2007-bluray-1080p-avc-dts-hd-master-audio-2-0",
+        "votes": 0
+      },
+      "id": "7183317",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 463,
+        "feature_details": {
+          "feature_id": 539824,
+          "feature_type": "Movie",
+          "imdb_id": 949489,
+          "movie_name": "2007 - Lost in Beijing",
+          "title": "Lost in Beijing",
+          "tmdb_id": 30112,
+          "year": 2007
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 3847372,
+            "file_name": "bien-xvid-libg.en"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": true,
+        "language": "en",
+        "legacy_subtitle_id": 4043601,
+        "legacy_uploader_id": 1295723,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 18,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s8.opensubtitles.com/features/4/2/8/539824.jpg",
+            "label": "All subtitles for lost in beijing",
+            "url": "https://www.opensubtitles.com/en/movies/bien-xvid-libg"
+          }
+        ],
+        "release": "bien-xvid-libg",
+        "slug": "bien-xvid-libg",
+        "subtitle_id": "3772847",
+        "upload_date": "2011-01-09T10:46:04Z",
+        "uploader": {
+          "name": "deep_sea",
+          "rank": "Trusted member",
+          "uploader_id": 56190
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/bien-xvid-libg",
+        "votes": 0
+      },
+      "id": "3772847",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 1010,
+        "feature_details": {
+          "feature_id": 539824,
+          "feature_type": "Movie",
+          "imdb_id": 949489,
+          "movie_name": "2007 - Lost in Beijing",
+          "title": "Lost in Beijing",
+          "tmdb_id": 30112,
+          "year": 2007
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 3847324,
+            "file_name": "Lost.In.Beijing.2007.UNRATED.DVDRip.XviD-BiEN"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.98,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 3252050,
+        "legacy_uploader_id": 1561722,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 52,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s7.opensubtitles.com/features/4/2/8/539824.jpg",
+            "label": "All subtitles for lost in beijing",
+            "url": "https://www.opensubtitles.com/en/movies/lost-in-beijing2007"
+          }
+        ],
+        "release": "lost in Beijing2007",
+        "slug": "lost-in-beijing2007",
+        "subtitle_id": "3772803",
+        "upload_date": "2008-02-21T19:59:31Z",
+        "uploader": {
+          "name": "robot2xl",
+          "rank": "Platinum Member",
+          "uploader_id": 63170
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-in-beijing2007",
+        "votes": 0
+      },
+      "id": "3772803",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 4700,
+        "feature_details": {
+          "feature_id": 539824,
+          "feature_type": "Movie",
+          "imdb_id": 949489,
+          "movie_name": "2007 - Lost in Beijing",
+          "title": "Lost in Beijing",
+          "tmdb_id": 30112,
+          "year": 2007
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 3847288,
+            "file_name": "Lost.In.Beijing.2007.UNRATED.DVDRip.XviD-BiEN.en"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 3176944,
+        "legacy_uploader_id": 127836,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 210,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s4.opensubtitles.com/features/4/2/8/539824.jpg",
+            "label": "All subtitles for lost in beijing",
+            "url": "https://www.opensubtitles.com/en/movies/lost-in-beijing-2007-unrated-dvdrip-xvid-bien"
+          }
+        ],
+        "release": "Lost.In.Beijing.2007.UNRATED.DVDRip.XviD-BiEN",
+        "slug": "lost-in-beijing-2007-unrated-dvdrip-xvid-bien",
+        "subtitle_id": "3772768",
+        "upload_date": "2008-01-13T12:52:18Z",
+        "uploader": {
+          "name": "jenilim",
+          "rank": "Platinum Member",
+          "uploader_id": 35998
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-in-beijing-2007-unrated-dvdrip-xvid-bien",
+        "votes": 0
+      },
+      "id": "3772768",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "Retail English subs.",
+        "download_count": 1109,
+        "feature_details": {
+          "feature_id": 1778482,
+          "feature_type": "Movie",
+          "imdb_id": 27307501,
+          "movie_name": "2023 - Lost in the Night",
+          "title": "Lost in the Night",
+          "tmdb_id": 605542,
+          "year": 2023
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 8572488,
+            "file_name": "Perdidos en la noche (2023).Retail"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 24,
+        "from_trusted": false,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 9924175,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 209,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s8.opensubtitles.com/features/2/8/4/1778482.jpg",
+            "label": "All subtitles for lost in the night",
+            "url": "https://www.opensubtitles.com/en/movies/perdidos-en-la-noche-2023-retail"
+          }
+        ],
+        "release": "Perdidos en la noche (2023).Retail",
+        "slug": "perdidos-en-la-noche-2023-retail",
+        "subtitle_id": "7646770",
+        "upload_date": "2024-03-04T06:53:25Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/perdidos-en-la-noche-2023-retail",
+        "votes": 0
+      },
+      "id": "7646770",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 22,
+        "feature_details": {
+          "feature_id": 514853,
+          "feature_type": "Movie",
+          "imdb_id": 294252,
+          "movie_name": "2002 - 2009: Lost Memories",
+          "title": "2009: Lost Memories",
+          "tmdb_id": 23132,
+          "year": 2002
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 9472244,
+            "file_name": "2009 - Lost Memories (2002).eng"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 12577255,
+        "legacy_uploader_id": 10144025,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 48,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s5.opensubtitles.com/features/3/5/8/514853.jpg",
+            "label": "All subtitles for 2009: lost memories",
+            "url": "https://www.opensubtitles.com/en/movies/12577255-2009-lost-memories-2002"
+          }
+        ],
+        "release": "2009 - Lost Memories (2002)",
+        "slug": "12577255-2009-lost-memories-2002",
+        "subtitle_id": "8548897",
+        "upload_date": "2024-08-05T08:49:44Z",
+        "uploader": {
+          "name": "Anonymous",
+          "rank": "anonymous",
+          "uploader_id": null
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/12577255-2009-lost-memories-2002",
+        "votes": 0
+      },
+      "id": "8548897",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": null,
+        "download_count": 404,
+        "feature_details": {
+          "feature_id": 514853,
+          "feature_type": "Movie",
+          "imdb_id": 294252,
+          "movie_name": "2002 - 2009: Lost Memories",
+          "title": "2009: Lost Memories",
+          "tmdb_id": 23132,
+          "year": 2002
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 202714,
+            "file_name": "2009 Lost Memories [F@A]"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 214863,
+        "legacy_uploader_id": 37141,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 12,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s2.opensubtitles.com/features/3/5/8/514853.jpg",
+            "label": "All subtitles for 2009: lost memories",
+            "url": "https://www.opensubtitles.com/en/movies/2009-lost-memories-1cd"
+          }
+        ],
+        "release": "2009 Lost Memories 1CD",
+        "slug": "2009-lost-memories-1cd",
+        "subtitle_id": "197372",
+        "upload_date": "2005-03-01T00:00:00Z",
+        "uploader": {
+          "name": "mlapacek (a)",
+          "rank": "Platinum Member",
+          "uploader_id": 3408
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/2009-lost-memories-1cd",
+        "votes": 0
+      },
+      "id": "197372",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": null,
+        "download_count": 933,
+        "feature_details": {
+          "feature_id": 514853,
+          "feature_type": "Movie",
+          "imdb_id": 294252,
+          "movie_name": "2002 - 2009: Lost Memories",
+          "title": "2009: Lost Memories",
+          "tmdb_id": 23132,
+          "year": 2002
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 202770,
+            "file_name": "2009.Lost.Memories.2001.DVDRip.XviD.AC3.2CH-JJH"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 214865,
+        "legacy_uploader_id": 37141,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 34,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s1.opensubtitles.com/features/3/5/8/514853.jpg",
+            "label": "All subtitles for 2009: lost memories",
+            "url": "https://www.opensubtitles.com/en/movies/2009-lost-memories-2001-dvdrip-xvid-ac3-2ch"
+          }
+        ],
+        "release": "2009 Lost Memories 2001 DVDRip XviD AC3 2CH",
+        "slug": "2009-lost-memories-2001-dvdrip-xvid-ac3-2ch",
+        "subtitle_id": "197420",
+        "upload_date": "2005-03-01T00:00:00Z",
+        "uploader": {
+          "name": "mlapacek (a)",
+          "rank": "bronze member",
+          "uploader_id": 3408
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/2009-lost-memories-2001-dvdrip-xvid-ac3-2ch",
+        "votes": 0
+      },
+      "id": "197420",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": null,
+        "download_count": 568,
+        "feature_details": {
+          "feature_id": 514853,
+          "feature_type": "Movie",
+          "imdb_id": 294252,
+          "movie_name": "2002 - 2009: Lost Memories",
+          "title": "2009: Lost Memories",
+          "tmdb_id": 23132,
+          "year": 2002
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 202745,
+            "file_name": "2009 Lost Memories"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 214864,
+        "legacy_uploader_id": 37141,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 19,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s4.opensubtitles.com/features/3/5/8/514853.jpg",
+            "label": "All subtitles for 2009: lost memories",
+            "url": "https://www.opensubtitles.com/en/movies/214864-2009-lost-memories-1cd"
+          }
+        ],
+        "release": "2009 Lost Memories 1CD",
+        "slug": "214864-2009-lost-memories-1cd",
+        "subtitle_id": "197395",
+        "upload_date": "2005-03-01T00:00:00Z",
+        "uploader": {
+          "name": "mlapacek (a)",
+          "rank": "Platinum Member",
+          "uploader_id": 3408
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/214864-2009-lost-memories-1cd",
+        "votes": 0
+      },
+      "id": "197395",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "Official Netflix subtitles",
+        "download_count": 592,
+        "feature_details": {
+          "feature_id": 1778482,
+          "feature_type": "Movie",
+          "imdb_id": 27307501,
+          "movie_name": "2023 - Lost in the Night",
+          "title": "Lost in the Night",
+          "tmdb_id": 605542,
+          "year": 2023
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 10687549,
+            "file_name": "Lost.in.the.Night.2023.1080p.NF.WEB-DL.DDP5.1.H.264-FLUX"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 24,
+        "from_trusted": false,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 12914310,
+        "legacy_uploader_id": 6283920,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 136,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s1.opensubtitles.com/features/2/8/4/1778482.jpg",
+            "label": "All subtitles for lost in the night",
+            "url": "https://www.opensubtitles.com/en/movies/12914310-lost-in-the-night-2023-1080p-nf-web-dl-ddp5-1-h-264-flux"
+          }
+        ],
+        "release": "Lost.in.the.Night.2023.1080p.NF.WEB-DL.DDP5.1.H.264-FLUX",
+        "slug": "12914310-lost-in-the-night-2023-1080p-nf-web-dl-ddp5-1-h-264-flux",
+        "subtitle_id": "9778212",
+        "upload_date": "2025-01-03T21:52:33Z",
+        "uploader": {
+          "name": "upsurge",
+          "rank": "Bronze Member",
+          "uploader_id": 230686
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/12914310-lost-in-the-night-2023-1080p-nf-web-dl-ddp5-1-h-264-flux",
+        "votes": 0
+      },
+      "id": "9778212",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 182,
+        "feature_details": {
+          "feature_id": 575666,
+          "feature_type": "Movie",
+          "imdb_id": 1468321,
+          "movie_name": "2010 - Eden of the East Movie II: Paradise Lost",
+          "title": "Eden of the East Movie II: Paradise Lost",
+          "tmdb_id": 44734,
+          "year": 2010
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 7154415,
+            "file_name": "Eden of the East"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 0,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 8927971,
+        "legacy_uploader_id": 7628158,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 321,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s6.opensubtitles.com/features/6/6/6/575666.jpg",
+            "label": "All subtitles for eden of the east movie ii: paradise lost",
+            "url": "https://www.opensubtitles.com/en/movies/eden-of-the-east-en"
+          }
+        ],
+        "release": "Eden of the East",
+        "slug": "eden-of-the-east-en",
+        "subtitle_id": "6243521",
+        "upload_date": "2021-12-31T22:54:21Z",
+        "uploader": {
+          "name": "lxs602",
+          "rank": "Platinum Member",
+          "uploader_id": 155149
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/eden-of-the-east-en",
+        "votes": 0
+      },
+      "id": "6243521",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "Time adjusted for English overdub version with no cinematic intro. Subtracted 400 seconds to adjust.",
+        "download_count": 423,
+        "feature_details": {
+          "feature_id": 514853,
+          "feature_type": "Movie",
+          "imdb_id": 294252,
+          "movie_name": "2002 - 2009: Lost Memories",
+          "title": "2009: Lost Memories",
+          "tmdb_id": 23132,
+          "year": 2002
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 203653,
+            "file_name": "2009 Lost Memories"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 4216298,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 22,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s4.opensubtitles.com/features/3/5/8/514853.jpg",
+            "label": "All subtitles for 2009: lost memories",
+            "url": "https://www.opensubtitles.com/en/movies/4216298-2009-lost-memories"
+          }
+        ],
+        "release": "2009 Lost Memories",
+        "slug": "4216298-2009-lost-memories",
+        "subtitle_id": "198124",
+        "upload_date": "2011-08-01T14:03:42Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/4216298-2009-lost-memories",
+        "votes": 0
+      },
+      "id": "198124",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 1909,
+        "feature_details": {
+          "feature_id": 514853,
+          "feature_type": "Movie",
+          "imdb_id": 294252,
+          "movie_name": "2002 - 2009: Lost Memories",
+          "title": "2009: Lost Memories",
+          "tmdb_id": 23132,
+          "year": 2002
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 203585,
+            "file_name": "2009 Lost Memories (1of3)"
+          },
+          {
+            "cd_number": 2,
+            "file_id": 203600,
+            "file_name": "2009 Lost Memories (2of3)"
+          },
+          {
+            "cd_number": 3,
+            "file_id": 203621,
+            "file_name": "2009 Lost Memories (3of3)"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 23.976,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": true,
+        "language": "en",
+        "legacy_subtitle_id": 4183897,
+        "legacy_uploader_id": 1341938,
+        "machine_translated": false,
+        "nb_cd": 3,
+        "new_download_count": 35,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s9.opensubtitles.com/features/3/5/8/514853.jpg",
+            "label": "All subtitles for 2009: lost memories",
+            "url": "https://www.opensubtitles.com/en/movies/lost-memories-1-3"
+          }
+        ],
+        "release": "Lost Memories 1-3",
+        "slug": "lost-memories-1-3",
+        "subtitle_id": "198074",
+        "upload_date": "2011-05-26T03:02:35Z",
+        "uploader": {
+          "name": "Uber_Nick",
+          "rank": "Bronze Member",
+          "uploader_id": 57089
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/lost-memories-1-3",
+        "votes": 0
+      },
+      "id": "198074",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 1946,
+        "feature_details": {
+          "feature_id": 514853,
+          "feature_type": "Movie",
+          "imdb_id": 294252,
+          "movie_name": "2002 - 2009: Lost Memories",
+          "title": "2009: Lost Memories",
+          "tmdb_id": 23132,
+          "year": 2002
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 201733,
+            "file_name": "2009 Lost Memories [2002] CD1.avi"
+          },
+          {
+            "cd_number": 2,
+            "file_id": 201758,
+            "file_name": "2009 Lost Memories [2002] CD2.avi"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 25,
+        "from_trusted": false,
+        "hd": false,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 393,
+        "legacy_uploader_id": 36998,
+        "machine_translated": false,
+        "nb_cd": 2,
+        "new_download_count": 19,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s1.opensubtitles.com/features/3/5/8/514853.jpg",
+            "label": "All subtitles for 2009: lost memories",
+            "url": "https://www.opensubtitles.com/en/movies/2009-lost-memories-2002-avi"
+          }
+        ],
+        "release": "2009 Lost Memories [2002] avi",
+        "slug": "2009-lost-memories-2002-avi",
+        "subtitle_id": "196576",
+        "upload_date": "2005-03-22T20:44:33Z",
+        "uploader": {
+          "name": "chenko",
+          "rank": "Bronze Member",
+          "uploader_id": 3293
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/2009-lost-memories-2002-avi",
+        "votes": 0
+      },
+      "id": "196576",
+      "type": "subtitle"
+    },
+    {
+      "attributes": {
+        "ai_translated": false,
+        "comments": "",
+        "download_count": 714,
+        "feature_details": {
+          "feature_id": 1778482,
+          "feature_type": "Movie",
+          "imdb_id": 27307501,
+          "movie_name": "2023 - Lost in the Night",
+          "title": "Lost in the Night",
+          "tmdb_id": 605542,
+          "year": 2023
+        },
+        "files": [
+          {
+            "cd_number": 1,
+            "file_id": 8619923,
+            "file_name": "Perdidos.en.la.noche.2023.Retail.DKsubs.1080p.WEB-DL.H.264.DD5.1-BANDOLEROS.en"
+          }
+        ],
+        "foreign_parts_only": false,
+        "fps": 24,
+        "from_trusted": false,
+        "hd": true,
+        "hearing_impaired": false,
+        "language": "en",
+        "legacy_subtitle_id": 9966962,
+        "legacy_uploader_id": 0,
+        "machine_translated": false,
+        "nb_cd": 1,
+        "new_download_count": 126,
+        "ratings": 0,
+        "related_links": [
+          {
+            "img_url": "https://s3.opensubtitles.com/features/2/8/4/1778482.jpg",
+            "label": "All subtitles for lost in the night",
+            "url": "https://www.opensubtitles.com/en/movies/perdidos-en-la-noche-2023-retail-dksubs-1080p-web-dl-h-264-dd5-1-bandoleros"
+          }
+        ],
+        "release": "Perdidos.en.la.noche.2023.Retail.DKsubs.1080p.WEB-DL.H.264.DD5.1-BANDOLEROS",
+        "slug": "perdidos-en-la-noche-2023-retail-dksubs-1080p-web-dl-h-264-dd5-1-bandoleros",
+        "subtitle_id": "7694409",
+        "upload_date": "2024-04-01T00:44:39Z",
+        "uploader": {
+          "name": "os-auto",
+          "rank": "Application Developers",
+          "uploader_id": 3282
+        },
+        "url": "https://www.opensubtitles.com/en/subtitles/perdidos-en-la-noche-2023-retail-dksubs-1080p-web-dl-h-264-dd5-1-bandoleros",
+        "votes": 0
+      },
+      "id": "7694409",
+      "type": "subtitle"
+    }
+  ],
+  "page": 1,
+  "per_page": 50,
+  "total_count": 1998,
+  "total_pages": 40
+}

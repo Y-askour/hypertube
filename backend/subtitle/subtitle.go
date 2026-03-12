@@ -7,13 +7,14 @@ import (
     "io"
     "net/http"
     "net/url"
+    "regexp"
+    "sort"
     "strconv"
-	// "os"
     "github.com/gin-gonic/gin"
 )
 
 type Subtitle struct {
-    ID           int    `json:"id"`
+    ID           int    `json:id`
     FileID       int    `json:"file_id"`
     Filename     string `json:"filename"`
     Language     string `json:"language"`
@@ -55,6 +56,18 @@ func isValidInt(s string) bool {
     return err == nil
 }
 
+var sePattern = regexp.MustCompile(`(?i)S(\d+)E(\d+)`)
+
+func parseSeasonEpisode(filename string) (int, int) {
+    matches := sePattern.FindStringSubmatch(filename)
+    if len(matches) == 3 {
+        s, _ := strconv.Atoi(matches[1])
+        e, _ := strconv.Atoi(matches[2])
+        return s, e
+    }
+    return 0, 0
+}
+
 func SearchSubtitlesHandler(c *gin.Context) {
     query := c.Query("query")
     if query == "" {
@@ -64,6 +77,7 @@ func SearchSubtitlesHandler(c *gin.Context) {
 
     params := url.Values{}
     params.Set("query", query)
+
     lang := c.DefaultQuery("lang", "en")
     params.Set("languages", lang)
 
@@ -75,12 +89,15 @@ func SearchSubtitlesHandler(c *gin.Context) {
     if season != "" && isValidInt(season) {
         params.Set("season_number", season)
     }
+
     if episode != "" && isValidInt(episode) {
         params.Set("episode_number", episode)
     }
+
     if subType == "movie" || subType == "episode" {
         params.Set("type", subType)
     }
+
     if isValidInt(page) {
         params.Set("page", page)
     }
@@ -92,6 +109,7 @@ func SearchSubtitlesHandler(c *gin.Context) {
         c.JSON(500, gin.H{"error": err.Error()})
         return
     }
+
     openSubtitlesHeaders(req)
 
     resp, err := (&http.Client{}).Do(req)
@@ -103,12 +121,82 @@ func SearchSubtitlesHandler(c *gin.Context) {
 
     body, _ := io.ReadAll(resp.Body)
 
-    var result interface{}
-    if err := json.Unmarshal(body, &result); err != nil {
-		c.JSON(500, gin.H{"error": "failed to parse response: " + err.Error()})
-        return 
+    var raw struct {
+        Data []struct {
+            Attributes struct {
+                FeatureDetails struct {
+                    MovieName     string `json:"movie_name"`
+                    FeatureType   string `json:"feature_type"`
+                    SeasonNumber  int    `json:"season_number"`
+                    EpisodeNumber int    `json:"episode_number"`
+                } `json:"feature_details"`
+                Files []struct {
+                    FileID   int    `json:"file_id"`
+                    FileName string `json:"file_name"`
+                } `json:"files"`
+                Language string `json:"language"`
+            } `json:"attributes"`
+        } `json:"data"`
     }
-    c.JSON(200, result)
+
+    if err := json.Unmarshal(body, &raw); err != nil {
+        c.JSON(500, gin.H{"error": "failed to parse response: " + err.Error()})
+        return
+    }
+
+    if len(raw.Data) == 0 {
+        c.JSON(404, gin.H{"error": "no subtitles found"})
+        return
+    }
+
+    movieName := query
+    if raw.Data[0].Attributes.FeatureDetails.MovieName != "" {
+        movieName = raw.Data[0].Attributes.FeatureDetails.MovieName
+    }
+
+    type subtitleResult struct {
+        Season   int    `json:"season"`
+        Episode  int    `json:"episode"`
+        FileID   int    `json:"file_id"`
+        Filename string `json:"filename"`
+        Language string `json:"language"`
+    }
+
+    results := make([]subtitleResult, 0, len(raw.Data))
+    seen := make(map[string]bool)
+    for _, item := range raw.Data {
+        for _, f := range item.Attributes.Files {
+            s := item.Attributes.FeatureDetails.SeasonNumber
+            e := item.Attributes.FeatureDetails.EpisodeNumber
+            if s == 0 && e == 0 {
+                s, e = parseSeasonEpisode(f.FileName)
+            }
+            key := strconv.Itoa(s) + "-" + strconv.Itoa(e)
+            if seen[key] {
+                continue
+            }
+            seen[key] = true
+            results = append(results, subtitleResult{
+                Season:   s,
+                Episode:  e,
+                FileID:   f.FileID,
+                Filename: f.FileName,
+                Language: item.Attributes.Language,
+            })
+        }
+    }
+
+    sort.Slice(results, func(i, j int) bool {
+        if results[i].Season != results[j].Season {
+            return results[i].Season < results[j].Season
+        }
+        return results[i].Episode < results[j].Episode
+    })
+
+    c.JSON(200, gin.H{
+        "movie_name": movieName,
+        "results":    results,
+    })
 }
 
 func GetDownloadLinkHandler(c *gin.Context) {
